@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+}
+body {
+
+}
+
+#logo {
+  height: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+#logo img{
+  width: 45%;
+}
+
+#navigation {
+  font-family: ltc-bodoni-175,serif;
+  font-style: normal;
+
+}
+
+#navigation li {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3.4rem;
+  color: white;
+  background-color: #222426;
+  margin-right: 6rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+  padding-top: .4rem;
+}
+
+.door {
+  width: .5rem;
+  position: relative;
+  background: transparent;
+  top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
