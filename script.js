@@ -50,6 +50,28 @@
 // }
 
 
+// preloader 
+
+window.addEventListener('load', () => {
+  setTimeout(removePreloader, 1000)
+})
+
+var loader = document.getElementById('preloader');
+
+function removePreloader() {
+  loader.style.display = 'none'
+}
+
+
+// window.addEventListener('load', () => {
+//   var loader = document.getElementById('preloader');
+//   setTimeout( function() {
+//     loader.classList.add('preloader-finish');
+//   }, 5000 );
+// });
+
+
+
 // modal land
 let ttlModals = 28;
 
