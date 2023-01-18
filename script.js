@@ -53,7 +53,7 @@
 // preloader 
 
 window.addEventListener('load', () => {
-  setTimeout(removePreloader, 10)
+  setTimeout(removePreloader, 1000)
 })
 
 var loader = document.getElementById('preloader');
