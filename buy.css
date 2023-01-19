@@ -1,0 +1,76 @@
+/* GENERAL  */
+body {
+  font-family: ltc-bodoni-175,serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;  
+}
+
+/* HEADER  */
+header {
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  background-color: rgba(166, 166, 166, .9);
+  color: white;
+  font-size: .9rem;
+}
+#header-logo {
+  font-size: 2rem;
+}
+.door {
+  width: 3px;
+  position: relative;
+  right: 3px;
+}
+.door-logo {
+  width: 6px;
+  position: relative;
+  right: 4px;
+}
+
+#buy-pueblo {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  /* background-color: #A6A6A6; */
+}
+.image-side {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+.image-side img{
+  width: 70vw;
+}
+
+.details-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.details-side button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#buy-else {
+  display: flex;
+  justify-content: center;
+}
