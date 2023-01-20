@@ -20,7 +20,7 @@ body {
 }
 
 #navigation {
-  height: 100vh;
+  height: 90vh;
   display: flex;
 }
 #navigation ul {
