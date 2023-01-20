@@ -1,6 +1,9 @@
 /* GENERAL  */
 body {
-  font-family: ltc-bodoni-175,serif;
+  /* font-family: ltc-bodoni-175,serif; */
+  font-family: brandon-grotesque,sans-serif;
+  font-weight: 200;
+  font-style: normal;
   margin: 0;
   padding: 0;
 }
@@ -25,7 +28,11 @@ header {
   font-size: .9rem;
 }
 #header-logo {
-  font-size: 2rem;
+  display: flex;
+  padding: 5px;
+}
+#header-logo img{
+  height: 5vh;
 }
 .door {
   width: 3px;
@@ -58,12 +65,9 @@ header {
   justify-content: flex-start;
   align-items: center;
 }
-/* .image-side img {
-  height: 200px;
-  width: 250px;
-} */
 
 #pueblos img{
+  margin-top: 20px;
   height: 200px;
   width: 200px;
 }
@@ -91,7 +95,12 @@ header {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+  border-bottom-left-radius: 90px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 90px;
 }
+
 
 
 #buy-else {
@@ -112,4 +121,9 @@ header {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+  border-bottom-left-radius: 90px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 90px;
 }
+
