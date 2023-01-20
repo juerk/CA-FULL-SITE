@@ -7,6 +7,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+li {
+  text-decoration: none;
+}
 body {
   font-family: brandon-grotesque,sans-serif;
   font-weight: 200;
@@ -57,4 +60,5 @@ body {
 }
 .door {
   height: 5vh;
+  display: none;
 }
