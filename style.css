@@ -15,7 +15,7 @@ body {
   font-weight: 200;
   font-style: normal;
 
-  background-color: #D97941;
+  background-color: #A6A6A6;
 
 }
 
@@ -32,7 +32,6 @@ body {
 }
 #navigation li {
   font-size: 3rem;
-  color: white;
 
 }
 
@@ -40,9 +39,12 @@ body {
   padding-left: 5%;
   margin-right: 5%;
 
+  text-align: right;
+  padding-right: 10%;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 90px;
   background-color: #222426;
+  color: white;
 
 }
 .logo {
@@ -55,12 +57,20 @@ body {
 }
 .bottom {
   padding-right: 5%;
-  text-align: right;
+  text-align: left;
   margin-left: 5%;
+  padding-left: 10%;
+
   border-bottom-left-radius: 90px;
   border-top-left-radius: 15px;
   background-color: #222426;
+  color: white;
 }
+#cta {
+  background-color: #D97941;
+  color: #222426;
+  font-weight: 700;
+} 
 .door {
   height: 5vh;
   display: none;
