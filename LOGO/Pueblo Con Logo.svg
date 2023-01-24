@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.71 148.51">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        font-family: FuturaPT-Light, 'Futura PT';
+      }
+
+      .cls-2, .cls-3 {
+        fill: #d97941;
+      }
+
+      .cls-2, .cls-4 {
+        font-size: 40.93px;
+      }
+
+      .cls-5 {
+        fill: #222426;
+      }
+
+      .cls-6 {
+        fill: #a6a6a6;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #3bd9bc;
+      }
+
+      .cls-9 {
+        stroke: #f2f2f2;
+        stroke-miterlimit: 10;
+        stroke-width: .81px;
+      }
+
+      .cls-4 {
+        font-family: FuturaPT-Book, 'Futura PT';
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="text">
+    <text class="cls-4" transform="translate(0 138.28)"><tspan x="0" y="0">COPPER</tspan></text>
+    <text class="cls-2" transform="translate(139.69 138.28)"><tspan class="cls-7" x="0" y="0">A</tspan><tspan class="cls-1" x="23.17" y="0">C</tspan><tspan class="cls-10" x="50.06" y="0">CENT</tspan></text>
+  </g>
+  <g id="objects">
+    <path class="cls-3" d="M104.59,0h72.98c5.17,0,9.37,4.2,9.37,9.37V99.53H95.22V9.37c0-5.17,4.2-9.37,9.37-9.37Z"/>
+    <path class="cls-6" d="M53.87,34.95h50.44c5.17,0,9.37,4.2,9.37,9.37v55.22H44.5V44.31c0-5.17,4.2-9.37,9.37-9.37Z"/>
+    <path class="cls-6" d="M159.98,16.48h65.13c5.17,0,9.37,4.2,9.37,9.37V99.53h-83.86V25.85c0-5.17,4.2-9.37,9.37-9.37Z"/>
+    <path class="cls-5" d="M104.59,49.13h92.05c5.17,0,9.37,4.2,9.37,9.37v41.03H95.22V58.5c0-5.17,4.2-9.37,9.37-9.37Z"/>
+    <g id="ladder">
+      <g>
+        <line class="cls-9" x1="74.36" y1="57.51" x2="72.32" y2="99.53"/>
+        <line class="cls-9" x1="78.54" y1="57.51" x2="80.22" y2="99.53"/>
+      </g>
+      <line class="cls-9" x1="73.89" y1="66.93" x2="78.92" y2="66.93"/>
+      <line class="cls-9" x1="73.32" y1="79.03" x2="79.38" y2="79.03"/>
+      <line class="cls-9" x1="72.73" y1="91.13" x2="79.88" y2="91.13"/>
+    </g>
+    <path class="cls-8" d="M134.66,71.79h15.13c.45,0,.82,.37,.82,.82v26.92h-16.77v-26.92c0-.45,.37-.82,.82-.82Z"/>
+  </g>
+</svg>

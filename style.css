@@ -15,7 +15,8 @@ body {
   font-weight: 200;
   font-style: normal;
 
-  background-color: #A6A6A6;
+  /* background-color: #A6A6A6; */
+  background: white;
 
 }
 
@@ -41,8 +42,8 @@ body {
   padding-left: 5%;
   margin-right: 5%;
 
-  border-bottom-right-radius: 15px;
-  border-top-right-radius: 90px;
+  /* border-bottom-right-radius: 15px;
+  border-top-right-radius: 90px; */
   background-color: #222426;
   color: #A6A6A6;
 
@@ -60,9 +61,9 @@ body {
   text-align: left;
   margin-left: 5%;
   padding-left: 10%;
-
+/* 
   border-bottom-left-radius: 90px;
-  border-top-left-radius: 15px;
+  border-top-left-radius: 15px; */
   background-color: #222426;
   color: white;
 }
