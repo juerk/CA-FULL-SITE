@@ -12,7 +12,7 @@
 
       .cls-3 {
         fill: #d97941;
-        stroke: #f2f2f2;
+        stroke: white;
         stroke-miterlimit: 10;
         stroke-width: 2px;
       }
