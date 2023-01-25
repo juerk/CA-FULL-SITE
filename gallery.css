@@ -31,7 +31,6 @@ header {
   width: 100%;
   display: flex;
   gap: 10px;
-  padding-left: 10px;
   justify-content: flex-start;
   align-items: center;
 }
@@ -39,7 +38,7 @@ header {
   width: 250%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 .right {
   width: 100%;
@@ -52,10 +51,10 @@ header {
   display: flex;
 }
 #header-logo img{
-  height: 5vh;
+  height: 3vh;
 }
 #hamburger {
-  height: 3vh;
+  height: 3.5vh;
 }
 #buy {
   width: 150%;
