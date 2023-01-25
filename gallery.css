@@ -62,7 +62,7 @@ header {
 
 
 #pueblos-main {
-  height: 30vh;
+  height: 25vh;
   width: 100%;
   margin-bottom: 1vh;
   display: flex;
@@ -70,9 +70,9 @@ header {
   justify-content: flex-end;
   gap: 2vh;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, .4)), url(img/gallery/pueblo/pueblo-header.jpeg);
+  background-image: linear-gradient(360deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, .6)), url(img/gallery/pueblo/pueblo-header.jpeg);
 }
 #pueblos-tagline {
   text-align: center;
