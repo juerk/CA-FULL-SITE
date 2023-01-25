@@ -2,9 +2,14 @@
 /* GENERAL  */
 body {
   /* font-family: ltc-bodoni-175,serif; */
-  font-family: brandon-grotesque,sans-serif;
+  /* font-family: brandon-grotesque,sans-serif;
   font-weight: 200;
+  font-style: normal; */
+
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500;
   font-style: normal;
+
   margin: 0;
   padding: 0;
 }
@@ -35,7 +40,7 @@ header {
   padding: 5px;
 }
 #header-logo img{
-  height: 5vh;
+  height: 2vh;
 }
 .door {
   width: 3px;
@@ -53,18 +58,11 @@ header {
 }
 
 /* pueblos */
-#pueblos-all {
 
-}
-#pueblos-header {
-  position: fixed;
-  top: 20px;
-}
-#pueblos-header img {
-  width: 100%;
-}
+
+
 #pueblos-main {
-  height: 40vh;
+  height: 30vh;
   width: 100%;
   margin-bottom: 1vh;
   display: flex;
@@ -72,9 +70,9 @@ header {
   justify-content: flex-end;
   gap: 2vh;
   background-size: cover;
-  background-position: top;
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, .7)), url(img/gallery/pueblo/pueblo-header.jpeg);
+  background-image: linear-gradient(360deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, .4)), url(img/gallery/pueblo/pueblo-header.jpeg);
 }
 #pueblos-tagline {
   text-align: center;
@@ -113,8 +111,38 @@ header {
 #pueblos-dropped {
   margin-bottom: 5vh;
 }
+.border {
+  height: 2vh;
+
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 4px solid #A6A6A6;
+}
+
+/* .border span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.border button {
+  background-color: #222426;
+	color: white;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  margin-bottom: 2px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 50px;
+} */
 
 /* nature  */
+#nature-all {
+
+}
 #nature-pattern-down {
   display: flex;
 }
@@ -122,7 +150,7 @@ header {
   display: flex;
 }
 #nature-main {
-  height: 40vh;
+  height: 30vh;
   width: 100%;
   margin-bottom: 1vh;
   display: flex;
@@ -161,14 +189,13 @@ header {
 
 /* MIRRORS  */
 #mirrors-main {
-  height: 40vh;
+  height: 30vh;
   width: 100%;
   margin-bottom: 1vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-size: cover;
-  background-position: top;
   background-repeat: no-repeat;
   background-image: linear-gradient(360deg, rgba(255, 255, 255, 1), rgb(255, 255, 255, .7)), url(img/gallery/mirror/Sheet-Mirror.png);
 }
@@ -196,18 +223,40 @@ header {
   background-color: white;
 }
 .thumbnail {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  gap: 2vh;
 }
 .thumbnail img {
-  height: 40vw;
-  width: 40vw;
-  /* height: 140px;
-  width: 140px; */
-  margin: 15px;
+  height: 80vw;
+  width: 80vw;
+
   box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.4);
+}
+
+.thumbnail-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.thumbnail-box span {
+}
+.thumbnail-box img {
+}
+.thumbnail-box button {
+  width: 15vh;
+  align-self: center;
+  background-color: #222426;
+	color: white;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  border-bottom-left-radius: 90px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 90px;
 }
 
 /* MODAL  */
@@ -282,8 +331,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #A6A6A6;
 } 
 #preloader img {
-  height: 10vh;
+  height: 5vh;
 }
