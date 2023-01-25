@@ -36,7 +36,7 @@ header {
   align-items: center;
 }
 .middle {
-  width: 250%;
+  width: 200%;
   display: flex;
   justify-content: center;
 }
@@ -58,7 +58,7 @@ header {
   height: 3.5vh;
 }
 #buy {
-  width: 150%;
+  width: 200%;
   text-align: center;
 	cursor: pointer;
   border-bottom-left-radius: 90px;
