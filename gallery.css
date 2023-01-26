@@ -8,7 +8,6 @@ body {
   font-style: normal;
   margin: 0;
   padding: 0;
-
 }
 a {
   text-decoration: none;
@@ -17,6 +16,8 @@ a {
 li {
   list-style: none;  
 }
+
+
 
 header {
   height: 50px;
@@ -36,6 +37,8 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  position: relative;
+  left: 5px;
 
 }
 .corner-logo img {
@@ -52,10 +55,6 @@ header {
 .header img {
   height: 8vh;
 }
-
-
-
-
 
 #burger-pop {
   height: 100%;
