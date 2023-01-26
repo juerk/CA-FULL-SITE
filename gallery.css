@@ -37,9 +37,12 @@ header {
 .left {
   width: 100%;
   display: flex;
-  gap: 10px;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
+}
+.instagram {
+}
+.nextdoor {
 }
 .middle {
   display: flex;
@@ -50,19 +53,18 @@ header {
   width: 100%;
   display: flex;
   gap: 20px;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
 }
 #header-logo {
   display: flex;
+  
 }
 #header-logo img{
-  padding: 5px;
-  height: 4vh;
+  padding: 10px;
+  height: 6vh;
 }
-#hamburger {
-  height: 3.5vh;
-}
+
 #buy {
   width: 50px;
   text-align: center;
@@ -76,8 +78,6 @@ header {
 }
 .header-bottom {
   display: flex;
-  position: relative;
-
 }
 .header-bottom h1{
   width: 100%;
@@ -238,8 +238,6 @@ header {
 
 
 .menu-btn {
-  padding-top: 10px;
-  padding-bottom: 10px;
   position: relative;
   display: flex;
   justify-content: center;
