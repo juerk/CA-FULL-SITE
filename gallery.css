@@ -85,14 +85,14 @@ header {
   background: #222426;
 }
 .burger-sm {
-  padding-top: 50px;
   height: 20%;
   width: 100%;
   display: flex;
   justify-content: flex-end;
 }
 .burger-sm img {
-  height: 10vh;
+  padding: 18px;
+  height: 7vh;
 }
 
 .menu-btn {
