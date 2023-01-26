@@ -57,7 +57,7 @@ header {
   height: 3.5vh;
 }
 #buy {
-  width: 200%;
+  width: 50px;
   text-align: center;
 	cursor: pointer;
   border-bottom-left-radius: 90px;
@@ -90,7 +90,7 @@ header {
   padding-bottom: 10vh;
 }
 .main {
-  margin-top: 10%;
+  margin-top: 20%;
   margin-bottom: 4vh;
   display: flex;
   flex-direction: column;
@@ -180,6 +180,35 @@ header {
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 90px;
+}
+
+#burger-pop {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0px;
+  /* background-color: white;
+  border-left: 5px solid #222426;
+  border-bottom: 5px solid #222426; */
+  transition: 2000ms;
+}
+#burger-pop ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#burger-pop li {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 1.5rem;
+  text-align: left;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 15px;
+  border-left: 15px solid #222426;
+  color: #222426;
+  background: #A6A6A6;
 }
 
 #preloader {

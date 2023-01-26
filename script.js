@@ -1,3 +1,30 @@
+// preloader 
+
+window.addEventListener('load', () => {
+  setTimeout(removePreloader, 800)
+})
+
+var loader = document.getElementById('preloader');
+
+function removePreloader() {
+  loader.style.display = 'none'
+}
+
+
+// burger menu
+
+const burgerPop = document.getElementById('burger-pop')
+burgerPop.style.display = "none"
+
+function showBurger() {
+  if (burgerPop.style.display === "none") {
+    burgerPop.style.display = "block"
+  } else {
+    burgerPop.style.display = "none"
+  }
+}
+
+
 // // DROP DOWN LAND NEED TO REFACTOR
 
 // const pueblosDropDown = document.getElementById('pueblos-dropdown')
@@ -50,17 +77,7 @@
 // }
 
 
-// preloader 
 
-window.addEventListener('load', () => {
-  setTimeout(removePreloader, 800)
-})
-
-var loader = document.getElementById('preloader');
-
-function removePreloader() {
-  loader.style.display = 'none'
-}
 
 
 // window.addEventListener('load', () => {
@@ -73,35 +90,35 @@ function removePreloader() {
 
 
 // modal land
-let ttlModals = 28;
+// let ttlModals = 28;
 
-function showModal(cellID) {
-  for (let i = 0; i < ttlModals; i++) {
-    let allModals = `modalcontent${[i]}`
-    let allModalsID = document.getElementById(allModals)
-    allModalsID.style.display = 'none'
-  }
-  let selectedID = `modalcontent${cellID}`
-  let modalSelected = document.getElementById(selectedID)
-  modalSelected.style.display = 'block'
-}
+// function showModal(cellID) {
+//   for (let i = 0; i < ttlModals; i++) {
+//     let allModals = `modalcontent${[i]}`
+//     let allModalsID = document.getElementById(allModals)
+//     allModalsID.style.display = 'none'
+//   }
+//   let selectedID = `modalcontent${cellID}`
+//   let modalSelected = document.getElementById(selectedID)
+//   modalSelected.style.display = 'block'
+// }
 
-function allModalGen() {
-  let allModalsArray = []
-  for (let i = 0; i < ttlModals; i++) {
-    let allModals = `modalcontent${[i]}`
-    let allModalsID = document.getElementById(allModals)
-    allModalsArray.push(allModalsID)
-  }
-  return allModalsArray
-}
-let allModalsArray = allModalGen()
+// function allModalGen() {
+//   let allModalsArray = []
+//   for (let i = 0; i < ttlModals; i++) {
+//     let allModals = `modalcontent${[i]}`
+//     let allModalsID = document.getElementById(allModals)
+//     allModalsArray.push(allModalsID)
+//   }
+//   return allModalsArray
+// }
+// let allModalsArray = allModalGen()
 
-function closeModal() {
-  for (let i = 0; i < ttlModals; i++) {
-    allModalsArray[i].style.display = 'none'
-  }
-}
+// function closeModal() {
+//   for (let i = 0; i < ttlModals; i++) {
+//     allModalsArray[i].style.display = 'none'
+//   }
+// }
 
 // const pueblosHeader = document.getElementById('pueblos-header')
 // const pueblosHeaderA = document.getElementById('pueblos-header-a')
