@@ -236,7 +236,7 @@ header {
 #burger-pop {
   height: 100%;
   width: 100%;
-  padding-top: 40%;
+  padding-top: 25%;
   display: flex;
   flex-direction: column;
   position: fixed;

@@ -31,9 +31,10 @@ body {
 #navigation ul {
   height: 100%;
   width: 100%;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  gap: 40px;
 }
 #navigation li {
   font-size: 3rem;
@@ -65,13 +66,6 @@ body {
   position: relative;
   color: #A6A6A6;
 }
-
-/* .corner-logo img {
-  height: 40px;
-  z-index: 2;
-  position: fixed;
-  top: 0px;
-} */
 
 .bottom {
   padding-right: 5%;
