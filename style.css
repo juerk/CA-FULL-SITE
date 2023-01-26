@@ -31,10 +31,10 @@ body {
 #navigation ul {
   height: 100%;
   width: 100%;
-  margin-top: 50px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
 }
 #navigation li {
   font-size: 3rem;
@@ -83,7 +83,14 @@ body {
   background-color: #222426;
   color: white;
 } 
-.door {
-  height: 5vh;
-  display: none;
+.burger-sm {
+  display: flex;
+}
+
+.burger-sm img {
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  top: -30px;
+
 }
