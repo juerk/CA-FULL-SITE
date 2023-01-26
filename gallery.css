@@ -183,32 +183,35 @@ header {
 }
 
 #burger-pop {
-  padding-top: 30px;
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   position: fixed;
   right: 0px;
-  /* background-color: white;
+  background-color: white;
   border-left: 5px solid #222426;
-  border-bottom: 5px solid #222426; */
-  transition: 2000ms;
+  border-bottom: 5px solid #222426;
 }
 #burger-pop ul {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 #burger-pop li {
   width: 100%;
   padding-right: 10px;
-  padding-left: 10px;
-  font-size: 1.5rem;
+  padding-left: 40px;
+  font-size: 3rem;
+  letter-spacing: 8px;
+
   text-align: left;
   border-bottom-left-radius: 50px;
   border-top-left-radius: 15px;
-  border-left: 15px solid #222426;
-  color: #222426;
-  background: #A6A6A6;
+  border-left: 15px solid #D97941;
+  color: #A6A6A6;
+  background: #222426;
 }
 
 #preloader {
