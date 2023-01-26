@@ -92,11 +92,10 @@ body {
 
 .burger-sm a img {
   width: 100%;
-  padding: 15px;
+  padding: 18px;
 }
 .burger-sm img {
   width: 100%;
-  padding: 15px;
 }
 #circle-logo {
   display: flex;
