@@ -70,6 +70,7 @@ header {
   background-color: #D97941;
 }
 .header-bottom {
+  z-index: 1;
   display: flex;
 
 }
@@ -186,7 +187,7 @@ header {
 #burger-pop {
   height: 100%;
   width: 100%;
-  padding-top: 25%;
+  padding-top: 40%;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -217,7 +218,7 @@ header {
   height: 20%;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 .burger-sm img {
   height: 10vh;
