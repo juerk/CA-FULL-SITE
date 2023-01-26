@@ -21,13 +21,13 @@ li {
 header {
   height: 50px;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 5px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   position: fixed;
   border-bottom: 1px solid #222426;
-  background: white;
+  background: #ffffff90;
 }
 
 .corner-logo {
@@ -51,7 +51,7 @@ header {
 }
 .header img {
 
-  height: 7.5vh;
+  height: 8vh;
 }
 
 
