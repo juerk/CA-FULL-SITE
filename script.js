@@ -21,6 +21,7 @@ function showBurger() {
     burgerPop.style.display = "block"
   } else {
     burgerPop.style.display = "none"
+
   }
 }
 
@@ -33,6 +34,7 @@ menuBtn.addEventListener('click', () => {
   } else {
     menuBtn.classList.remove('open');
     menuOpen = false;
+    
   }
 });
 
