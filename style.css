@@ -90,6 +90,10 @@ body {
   justify-content: space-between;
 }
 
+.burger-sm a img {
+  width: 100%;
+  padding: 15px;
+}
 .burger-sm img {
   width: 100%;
   padding: 15px;
