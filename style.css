@@ -83,20 +83,15 @@ body {
   background-color: #222426;
   color: white;
 } 
+
+
 .burger-sm {
+  display: flex;
+  justify-content: center;
   position: fixed;
   bottom: 10px;
-  right: 80px;
-
 }
-
 .burger-sm a img {
   width: 100%;
   padding: 18px;
-}
-.burger-sm img {
-  width: 100%;
-}
-#circle-logo {
-  display: flex;
 }
