@@ -262,10 +262,11 @@ header {
 }
 
 footer {
+  height: 70px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
   color: white;
   background: #a6a6a6;
 }
