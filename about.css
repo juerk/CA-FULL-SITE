@@ -206,6 +206,7 @@ header {
   text-align: left;
   padding-right: 20px;
   padding-left: 20px;
+  padding-bottom: 20px;
 }
 #workmanship span {
   padding-top: 40px;
@@ -213,4 +214,36 @@ header {
   font-size: 2rem;
   border-bottom-right-radius: 15px;
   border-bottom: 8px solid #222426;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  color: white;
+  background: #a6a6a6;
+}
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.middle {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+}
+.left img {
+  height: 4vh;
 }
