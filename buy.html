@@ -5,29 +5,53 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="buy.css">
+  <script src="script.js" defer></script>
   <link rel="stylesheet" href="https://use.typekit.net/ifd5acr.css">
-
   <title>BUY</title>
 </head>
 <body>
   
+  <div id="preloader">
+    <div id="header-logo"><img src="LOGO/ca.svg"></div>
+  </div>
+
+  <div id="burger-pop">
+    <ul>
+      <a href="index.html"><li>HOME</li></a>
+      <a href="contact.html"><li>CONTACT</li></a>
+      <a href="gallery.html"><li>GALLERY</li></a>
+      <a href="about.html"><li>ABOUT</li></a>
+      <a href="buy.html"><li>BUY</li></a>
+    </ul>
+    <div class="burger-sm">
+      <a href=""><img id="circle-logo" src="LOGO/ca.svg" alt=""></a>
+      <a href="https://nextdoor.com/pages/copper-accent-llc-rio-rancho-nm/" target="_blank"><img class="nextdoor" src="img/svg/nextdoor.svg" alt=""></a>
+      <a href="https://www.instagram.com/copperaccent/" target="_blank"><img class="instagram" src="img/svg/instagram.svg" alt=""></a>
+    </div>
+  </div>
+  
   <header>
-    <a href="index.html"><div id="header-logo"><img src="img/svg/circle-logo-alt.svg" alt=""></div></a>
-    <div id="contact">CONTACT <img class="door" src="img/svg/door.svg" alt=""></div>
-    <a href="gallery.html"><div id="gallery">GALLERY <img class="door" src="img/svg/door.svg" alt=""></div></a>
-    <div id="contact">ABOUT <img class="door" src="img/svg/door.svg" alt=""></div>
-    <a style="color: black;" href="buy.html"><div id="buy">BUY <img class="door" src="img/svg/door.svg" alt=""></div></a>
+    <div class="corner-logo">
+      <a href="index.html"><img src="LOGO/ca.svg" alt=""></a>
+    </div>
+    <div class="header">
+      <img src="img/headers/buy.svg" alt="">
+    </div>
+    <div class="menu-btn" onclick="showBurger()">
+      <div class="menu-btn__burger" ></div>
+    </div>
   </header>
 
   <div id="buy-online">
 
     <div id="buy-pueblo">
       <div class="image-side" >
+        <span>Pueblo Verde</span>
+
         <div id="pueblos"><img  src="img/buy/pueblos.jpeg" alt=""></div>
       </div>
       
       <div class="details-pueblos">
-        <span>Pueblo Verde</span>
         <span>$160</span>
         <button>Buy</button>
       </div> 
@@ -36,10 +60,11 @@
 
     <div id="buy-pueblo">
       <div class="image-side" >
+        <span>Gambel's Quail</span>
+
         <div id="quail"><img  src="img/buy/quail.jpeg" alt=""></div>
       </div>
       <div class="details-pueblos">
-        <span>Gambel's Quail</span>
         <span>$140</span>
         <button>Buy</button>
       </div>
