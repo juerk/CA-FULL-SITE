@@ -8,6 +8,7 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+
 }
 a {
   text-decoration: none;
@@ -28,7 +29,6 @@ header {
   justify-content: space-between;
   align-items: flex-end;
 }
-
 .corner-logo {
   height: 100%;
   flex: 1;
@@ -36,12 +36,12 @@ header {
   justify-content: flex-start;
   align-items: flex-end;
   border-bottom: 3px solid #222426;
-
 }
 .corner-logo img {
   height: 5vh;
   position: relative;
   left: 5px;
+  bottom: -1px;
   display: flex;
 }
 .header {
@@ -169,12 +169,48 @@ header {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
-.heading img {
-  width: 90vw;
+.began {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.began span {
+  padding-top: 40px;
+  width: 50%;
+  font-size: 2rem;
+  text-align: center;
+  border-bottom-right-radius: 15px;
+  border-bottom: 8px solid #D97941;
 }
 .began img {
+  padding-top: 20px;
   width: 100%;
+}
+
+#workmanship img {
+  padding-top: 20px;
+  width: 100%;
+}
+
+#workmanship {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#workmanship span {
+  padding-top: 40px;
+  width: 50%;
+  font-size: 2rem;
+  border-bottom-right-radius: 15px;
+  border-bottom: 8px solid #222426;
 }
