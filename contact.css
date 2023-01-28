@@ -1,0 +1,74 @@
+body {
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+img {
+  height: 8vh;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.input-group{
+  margin-bottom: 10px;
+  position: relative;
+}
+#message {
+  height: 40vh;
+}
+input, textarea{
+  width: 90vw;
+  height: 5vh;
+  border: 3px solid #A6A6A6;
+  color: #222426;
+  background: transparent;
+  border-radius: 10px;
+}
+label{
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #222426;
+  cursor: text;
+  transition: .5s;
+}
+button {
+  height: 100%;
+  font-family: inherit;
+  background-color: #D97941;
+  color: white;
+  font-size: 3rem;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 50px;
+
+
+}
+button:hover {
+}
+
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+  opacity: .0;
+}
