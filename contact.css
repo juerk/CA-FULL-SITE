@@ -6,7 +6,6 @@ body {
   padding: 0;
   background-color: white;
 }
-
 #logo {
   display: flex;
   justify-content: center;
@@ -16,7 +15,6 @@ body {
 img {
   height: 8vh;
 }
-
 form{
   display: flex;
   flex-direction: column;
@@ -49,6 +47,13 @@ label{
   cursor: text;
   transition: .5s;
 }
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+  opacity: .0;
+}
+
 button {
   font-family: inherit;
   font-weight: 100;
@@ -59,16 +64,6 @@ button {
   border-bottom-right-radius: 50px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 50px;
-
-
-}
-button:hover {
 }
 
 
-input:focus~label,
-input:valid~label,
-textarea:focus~label,
-textarea:valid~label{
-  opacity: .0;
-}
