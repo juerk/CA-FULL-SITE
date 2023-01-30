@@ -64,7 +64,7 @@ body {
   padding-right: 5%;
   text-align: right;
   padding-left: 5%;
-  letter-spacing: 8px;
+  letter-spacing: 5px;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom: 10px solid #A6A6A6;
@@ -82,8 +82,8 @@ body {
 
 }
 #gallery {
-  background-image: url(img/gallery/nature/three-quails.jpeg);
-  background-position: center;
+  background-image: url(img/home/gallery.png);
+  background-position: right;
 }
 #contact {
   background-image: url(img/home/contact.jpeg);
@@ -92,7 +92,7 @@ body {
 .bottom {
   text-align: left;
   margin-left: 5%;
-  letter-spacing: 8px;
+  letter-spacing: 5px;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
   border-bottom: 10px solid #222426;
