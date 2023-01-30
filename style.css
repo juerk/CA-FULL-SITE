@@ -69,7 +69,8 @@ body {
   letter-spacing: 5px;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
-  border-right: #222426 10px solid;
+  border-right: #A6A6A6 15px solid;
+
   color: white;
   background-image: url(img/home/buy.jpeg);
   background-repeat: no-repeat;
@@ -95,7 +96,9 @@ body {
   letter-spacing: 5px;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
-  border-left: #222426 10px solid;
+  border-left: #222426 15px solid;
+
+
 
   color: white;
   background-image: url(img/home/buy.jpeg);
