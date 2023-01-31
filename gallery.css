@@ -2,13 +2,15 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-bottom: 10vh;
+  padding-bottom: 8vh;
 }
 .main {
-  margin-top: 20%;
+  margin-top: 10vh;
   margin-bottom: 4vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 3vh;
 }
 .tagline {
@@ -34,12 +36,13 @@
 
 .thumbnail {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
 }
 .thumbnail img {
   width: 90%;
-  max-width: 500px;
+  max-width: 450px;
   align-self: center;
   aspect-ratio: 1 / 1;
   box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.4);
