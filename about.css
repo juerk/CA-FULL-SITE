@@ -1,50 +1,60 @@
+
 .heading {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 50px;
+  margin-top: 100px;
+  padding-right: 10vw;
+  padding-left: 10vw;
 }
-.began {
+.heading span {
+  font-size: 1.1rem;
+}
+.heading img {
+  max-width: 800px;
+}
+.section {
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: left;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
-.began span {
+.section span {
   padding-top: 40px;
-  width: 50%;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   border-bottom-right-radius: 5px;
   border-bottom: 8px solid #D97941;
 }
-.began img {
+.section img {
   padding-top: 20px;
+  max-width: 800px;
   width: 100%;
+}
+.kurtimage {
+  display: flex;
+  justify-content: center;
 }
 
-#workmanship img {
-  padding-top: 20px;
-  width: 100%;
-}
-#workmanship {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: left;
-  padding-right: 20px;
-  padding-left: 20px;
-}
 #workmanship span {
-  padding-top: 40px;
-  width: 50%;
-  font-size: 2rem;
-  border-bottom-right-radius: 5px;
   border-bottom: 8px solid #222426;
+}
+
+.ig-embed {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1000px) {
+  .section {
+    font-size: 2rem;
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
 }
 

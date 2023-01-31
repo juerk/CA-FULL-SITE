@@ -20,7 +20,6 @@ form{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 .input-group{
   display: flex;
