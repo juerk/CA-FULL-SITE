@@ -10,33 +10,32 @@
 </head>
 <body>
   <div id="logo">
-    <img src="LOGO/ca.svg" alt="">
+    <a href="index.html"><img src="LOGO/ca.svg" alt=""></a>
   </div>
   
-  <div id="contact">
-      <form class="formcontainer" action="https://formsubmit.co/wuerkerrs06@gmail.com" method="POST">
-        <div class="row">
-          <div class="input-group">
-            <input type="text" name="Name" id="name" required>
-            <label for="name"><i class="fa-regular fa-user"></i> Name</label>
-          </div>
-          <div class="input-group">
-            <input type="email" name="Contact Email" id="email" required>
-            <label for="email"><i class="fa-regular fa-envelope"></i> Email</label>
-          </div>
-        </div>
-        <!-- <div class="input-group">
-          <input type="text" name="Subject" id="number" required>
-          <label for="Topic"><i class="fa-regular fa-comment"></i> Topic</label>
-        </div> -->
-        <div class="input-group">
-          <textarea id="message" name="Body" rows="8" required></textarea>
-          <label for="message"><i class="fa-regular fa-comments"></i> Message</label>
-        </div>
-        <button type="submit">Send Message<i class="fa-solid fa-paper-plane"></i></button>
-        <input type="hidden" name="_subject" value="New email!">
-      </form>
-  </div>
+  <form class="formcontainer" action="https://formsubmit.co/wuerkerrs06@gmail.com" method="POST">
+    <div class="row">
+      <div class="input-group">
+        <input type="text" name="Name" id="name" required>
+        <label for="name"><i class="fa-regular fa-user"></i> Name</label>
+      </div>
+      <div class="input-group">
+        <input type="email" name="Contact Email" id="email" required>
+        <label for="email"><i class="fa-regular fa-envelope"></i> Email</label>
+      </div>
+    </div>
+    <!-- <div class="input-group">
+      <input type="text" name="Subject" id="number" required>
+      <label for="Topic"><i class="fa-regular fa-comment"></i> Topic</label>
+    </div> -->
+    <div class="input-group">
+      <textarea id="message" name="Body" rows="8" required></textarea>
+      <label for="message"><i class="fa-regular fa-comments"></i> Message</label>
+      <button type="submit">Send Message<i class="fa-solid fa-paper-plane"></i></button>
+      <input type="hidden" name="_subject" value="New email!">
+    </div>
+  
+  </form>
 
   
   </body>

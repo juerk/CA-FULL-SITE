@@ -20,7 +20,7 @@
 }
 .header-text span {
   font-size: 3rem;
-  border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 5px;
 }
 #pueblos span {
   border-bottom: 8px solid #D97941;
@@ -52,16 +52,21 @@
 .thumbnail-box button {
   width: 15vh;
   align-self: center;
-  background-color: #222426;
 	color: white;
 	border: none;
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
-  border-bottom-left-radius: 90px;
-  border-top-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-top-right-radius: 90px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.buy-btn {
+  background-color: #D97941;
+}
+.contact-btn {
+  background-color: #222426;
 }
 #buy-contact {
   text-align: center;
