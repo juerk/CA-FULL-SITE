@@ -65,6 +65,10 @@
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
 }
+.thumbnail-box button:hover {
+  background-color: #A6A6A6;
+  color: #222426;
+}
 .buy-btn {
   background-color: #D97941;
 }
