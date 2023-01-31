@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3vh;
+  gap: 2vh;
 }
 .tagline {
   display: flex;
@@ -75,27 +75,4 @@
 .contact-btn {
   background-color: #222426;
 }
-#buy-contact {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  color: white;
-  padding: 8%;
-  background-color: #222426;
-}
-#buy-contact button {
-  height: 5vh;
-  width: 50%;
-  margin-bottom: 5vh;
-  align-self: center;
-  background-color: #A6A6A6;
-	color: white;
-	border: none;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-  border-bottom-left-radius: 90px;
-  border-top-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-top-right-radius: 90px;
-}
+
