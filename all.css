@@ -16,6 +16,54 @@ li {
   list-style: none;  
 }
 
+
+
+@media screen and (max-width: 949px) {
+  .nav-desktop {
+      display: none;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .menu-btn {
+    display: none;
+    z-index: -1000;
+    position: relative;
+    top: -100000;
+  }
+  .menu-btn__burger {
+    display: none;
+    z-index: -1000;
+    position: relative;
+    top: -100000;
+  }
+  #burger-pop {
+    display: none;
+  }
+
+  .nav-desktop {
+    width: 400px;
+    margin-right: -395px;
+  }
+  .nav-desktop ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 3vw;
+  }
+  .nav-desktop ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 3vw;
+  }
+  .nav-desktop li:hover {
+    color: #D97941;
+    font-weight: 600;
+  }
+
+  
+
+}
+
 /* HEADER  */
 header {
   height: 50px;
@@ -176,8 +224,9 @@ footer {
 .middle {
   flex: 1;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  gap: 3vw;
 }
 .right {
   display: flex;
