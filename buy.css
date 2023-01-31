@@ -32,9 +32,7 @@
   flex-direction: column;
 }
 .details-pueblos button {
-  height: 3vh;
-  width: 30%;
-  max-width: 300px;
+  width: 120px;
   align-self: center;
   text-align: center;
   background-color: #D97941;
@@ -67,8 +65,7 @@
 } */
 
 #buy-contact button {
-  height: 3vh;
-  width: 20%;
+  width: 120px;
   max-width: 300px;
   background-color: #D97941;
 	color: white;
